@@ -16,6 +16,11 @@
  - Создать route table. Добавить статический маршрут, направляющий весь исходящий трафик private сети в NAT-инстанс.
  - Создать в этой приватной подсети виртуалку с внутренним IP, подключиться к ней через виртуалку, созданную ранее, и убедиться, что есть доступ к интернету.
 
+
+![1](https://github.com/MaximovAA/school/blob/main/oblaka-13.jpg)
+![1](https://github.com/MaximovAA/school/blob/main/oblaka-11.jpg)
+![1](https://github.com/MaximovAA/school/blob/main/oblaka-12.jpg)
+
 Resource Terraform для Yandex Cloud:
 
 - [VPC subnet](https://registry.terraform.io/providers/yandex-cloud/yandex/latest/docs/resources/vpc_subnet).
