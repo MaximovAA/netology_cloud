@@ -15,7 +15,12 @@
  - Создать в VPC subnet с названием private, сетью 192.168.20.0/24.
  - Создать route table. Добавить статический маршрут, направляющий весь исходящий трафик private сети в NAT-инстанс.
  - Создать в этой приватной подсети виртуалку с внутренним IP, подключиться к ней через виртуалку, созданную ранее, и убедиться, что есть доступ к интернету.
-
+   
+```
+Пока не стал раскладывать по блокам, собрал в кучу
+Дополнительно сразу подключил sg
+```
+[ссылка на main.tf](https://github.com/MaximovAA/netology_cloud/blob/main/main.tf)
 
 ![1](https://github.com/MaximovAA/school/blob/main/oblaka-13.jpg)
 ![1](https://github.com/MaximovAA/school/blob/main/oblaka-11.jpg)
