@@ -1,0 +1,16 @@
+#cloud-config
+ssh_pwauth: false
+users:
+  - name: ubuntu
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh_authorized_keys: "${ssh_public_key}"
+ssh_deletekeys: false
+package_update: true
+package_upgrade: false
+packages:
+ - vim
+ - nginx
+runcmd:
+ - restart ssh
