@@ -11,6 +11,7 @@
 ## Задание 1. Yandex Cloud 
 
 **Что нужно сделать**
+[Директория с исходниками](https://github.com/MaximovAA/netology_cloud/blob/main/Lesson2/vm-lb.tf)
 
 1. Создать бакет Object Storage и разместить в нём файл с картинкой:
 
