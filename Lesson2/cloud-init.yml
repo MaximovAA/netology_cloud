@@ -1,0 +1,9 @@
+#cloud-config
+users:
+  - name: ubuntu
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh_authorized_keys: "${ssh_public_key}"
+runcmd:
+ - echo '<html><body><img src="https://storage.yandexcloud.net/homeworks3backet1605/test1.jpeg"/></body></html>' > /var/www/html/index.html
