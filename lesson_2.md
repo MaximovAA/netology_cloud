@@ -35,6 +35,7 @@
 ![file](https://github.com/MaximovAA/school/blob/main/oblaka-25.jpg)
 ![file](https://github.com/MaximovAA/school/blob/main/oblaka-26.jpg)
 ![file](https://github.com/MaximovAA/school/blob/main/oblaka-28.jpg)
+![file](https://github.com/MaximovAA/school/blob/main/oblaka-29.jpg)
 
 Полезные документы:
 
